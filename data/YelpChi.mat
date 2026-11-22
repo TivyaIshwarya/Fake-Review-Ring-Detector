@@ -1,0 +1,3 @@
+pip install scipy numpy pytest
+python -m src.loader data/YelpChi.mat data/ring.db 15000
+pytest
